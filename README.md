@@ -13,8 +13,9 @@ We have a starter kit for you so you can avoid doing basic boilerplate and can f
 
 However, the boilerplate code in this project should serve as a foundation; feel free to make modifications, write helper functions, create shared components, etc.
 
-This project is designed to take **45 minutes**, no more than 1 hour, but we respect your right to work on it as needed on your own time. Fork this repo to get started.
+## Timing
 
+This project is designed to take **45 minutes**, no more than 1 hour, but we respect your right to work on it as needed on your own time. Please send the recruiter a link to your solution within a week.
 
 # Getting Started
 
