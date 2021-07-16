@@ -42,11 +42,12 @@ We would like you to do the following:
       - Debit start date
       - Debit schedule type. This can be one of the following:
         - Biweekly (every 2 weeks)
-        - Semi-monthly (twice a month)
-        - Days of month: a list of days associated with semi-monthly debits. Examples: [1, 15], [5], []
-      - Debit frequency: day of week associated with biweekly debits. Available values are: monday, tuesday, wednesday, thursday, friday, and “”
+        - Semimonthly (twice a month)
+      - Days of month: a list of days associated with semi-monthly debits.
+        - Examples: [1, 15], [5], []
+      - Debit day of week: day of the week associated with biweekly debits.
+        - Available values: `monday`, `tuesday`, `wednesday`, `thursday`, `friday`, and `“”`
       - Day of the month when payments are due (eg, the 30th)
-      - Grace period flag (true/false)
 1. Save the response in the redux store
     - A redux example is available for you to reference at: http://localhost:3002/example-redux
 1. Render the loans from the store into the `Home` container
