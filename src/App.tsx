@@ -13,19 +13,13 @@ export const query = gql`
 `
 // import useAPICall from "./useAPICall";
 export default function App() {
-  const {data, loading} = useQuery(query)
-  const { loans } = data ?? {};
   return (
     <div className="App">
       <h1>Welcome!</h1>
       <h2>Start editing to see some magic happen!</h2>
-      <ul>
-      {
-        loans && loans?.map?.((loan: any) => {
-          return <li key={loan.id}>{loan.id.slice(10,20)}: ${loan.amount} ({(loan.interestRate * 100).toFixed(1)}%)</li>
-        })
-      }
-      </ul>
+      {/* 
+        TODO: Loans here
+      */}
     </div>
   );
 }
