@@ -1,6 +1,5 @@
 import { Typography } from "@material-ui/core"; // https://mui.com/api/typography/
 import { useQuery, gql } from "@apollo/client";
-import { loans } from "./loans.mocks";
 
 export const query = gql`
   query myQuery {
